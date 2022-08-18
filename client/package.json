@@ -1,0 +1,63 @@
+{
+  "name": "parking-system",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mantine/core": "^4.2.12",
+    "@mantine/dates": "^4.2.12",
+    "@mantine/form": "^4.2.12",
+    "@mantine/hooks": "^4.2.12",
+    "@mantine/modals": "^4.2.12",
+    "@mantine/notifications": "^4.2.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "date-and-time": "^2.4.0",
+    "date-diff": "^1.0.2",
+    "dayjs": "^1.11.3",
+    "humanize-duration": "^3.27.2",
+    "joi": "^17.6.0",
+    "qrcode": "^1.5.1",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-filter-search": "^1.1.11",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-qr-scanner": "^1.0.0-alpha.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "tabler-icons-react": "^1.52.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "tailwindcss": "^3.1.6"
+  }
+}
